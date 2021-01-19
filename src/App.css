@@ -1,0 +1,107 @@
+.App {
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.type-badge{
+  font-size: 1em;
+  color: #fff;
+}
+.bg-normal{
+  background: #a8a878;  
+}
+.bg-grass{
+  background: #01b144;  
+}
+.bg-water{
+  background: #139bd3;  
+}
+.bg-fire{
+  background: #ff2d01;  
+}
+.bg-flying{
+  background: #5b5bf3;
+}
+.bg-electric{
+  background: #fbf920;
+}
+.bg-psychic{
+  background: #ed3894;
+}
+.bg-fighting{
+  background: #e32702;
+}
+.bg-rock{
+  background: #cf8f02;
+}
+.bg-ground{
+  background: #fec006;
+}
+.bg-bug{
+  background: #6dd141;
+}
+.bg-poison{
+  background: #ee44cf;
+}
+.bg-dark{
+  background: #963801;
+}
+.bg-ghost{
+  background: #001b62;
+}
+.bg-ice{
+  background: #b3d7ef;
+}
+.bg-steel{
+  background: #81817c;
+}
+.bg-dragon{
+  background: #7d2ea1;
+}
+.bg-fairy{
+  background: #fd9dfd;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #f8c60c !important;
+}
+
+.App-header .logo{
+  max-height: 45px;
+  display: block;
+  margin: 0 auto;
+}
+.btn .icon{
+    color: #ccc;
+}
+.infinite-scroll-component__outerdiv{
+  width: 100%;
+}
+
+.sprite{
+  max-width: 100px;
+  display: block;
+  margin: 20px auto;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
